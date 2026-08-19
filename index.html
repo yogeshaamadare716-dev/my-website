@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>meri website </title>
-    </head>
-    <body>
-        <h1>Welcome to my website </h1>
-<!--image ke liye code-->
-<h2>meri photo</h2>
-<img src="myphoto.jpg" alt="meri photo" width="300">
-    </body>
+    <title>Meri Portfolio Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #333;
+            text-align: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+        .card {
+            background-color: white;
+            max-width: 450px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #764ba2;
+            margin-top: 15px;
+        }
+        h1 { color: #2d3748; margin-bottom: 5px; }
+        p { color: #4a5568; font-size: 16px; line-height: 1.5; }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #764ba2;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover { background-color: #5a387e; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Welcome to My Profile</h1>
+        <p>Mera naam Yogesh hai aur yeh meri personal website hai.</p>
+        
+        <img src="myphoto.jpg" alt="meri photo">
+        
+        <h2>About Me</h2>
+        <p>Mujhe Web Development sikhna pasand hai!</p>
+
+        <a href="https://github.com/yogeshaamadare716-dev" class="btn" target="_blank">Mera GitHub Profile</a>
+    </div>
+
+</body>
 </html>
