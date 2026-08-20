@@ -30,21 +30,23 @@
             font-size: 22px;
             margin-bottom: 25px;
         }
-        .btn-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            min-height: 50px;
-        }
-        button {
-            padding: 12px 25px;
-            font-size: 16px;
-            font-weight: bold;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            transition: 0.1s;
-        }
+        ..btn-container {
+    display: flex; /* Ye buttons ko side-by-side layega */
+    justify-content: center; /* Center me align karega */
+    align-items: center;
+    gap: 20px; /* Dono buttons ke beech ka space */
+    margin-top: 20px; /* Question aur buttons ke beech ka gap */
+    min-height: 60px; /* Taaki button overlap na karein */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+        
         #yesBtn {
             background-color: #28a745;
             color: white;
@@ -73,7 +75,7 @@
         </div>
 
         <div id="message">
-            Yaaay! I Love You So Much! 🎉❤️✨
+            Yaaay! I Love You So Much sister! 🎉❤️✨
         </div>
     </div>
 
